@@ -1,0 +1,37 @@
+# Environment and Database configuration
+config.php
+config/db.php
+config/config.php
+.env
+
+# Vendor / Composer dependencies
+/vendor/
+composer.lock
+
+# IDE and OS files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+
+# Logs and Caches
+*.log
+/logs/
+/cache/
+/tmp/
+
+# User Uploaded assets (photos, signatures, etc.)
+/uploads/signatures/
+/uploads/photos/
+/uploads/documents/
+/uploads/temp/
+
+# Reports and exports
+/exports/
+/reports/*.xlsx
+/reports/*.pdf
